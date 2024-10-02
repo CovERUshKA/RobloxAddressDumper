@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{e40050b6-acf4-47f9-8c5b-42e26092341f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileWriter">
+      <UniqueIdentifier>{39814706-7298-4390-8b1a-a25b79dcbfeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dumper">
+      <UniqueIdentifier>{af9d5e1a-33f5-4764-b2c1-e6505776e224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zydis">
+      <UniqueIdentifier>{c9cd6daa-7362-45d9-8ac1-8683fe236be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zydis\Zycore">
+      <UniqueIdentifier>{966d5281-a7c3-4e3a-9cce-191fb011ab45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zydis\Zycore\API">
+      <UniqueIdentifier>{0411f9c3-f781-473f-8a3d-298f809158f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zydis\Zydis">
+      <UniqueIdentifier>{00937f1e-ef41-45d1-a218-a7fff5359a06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zydis\Zydis\Internal">
+      <UniqueIdentifier>{78383f0c-545c-4b93-abb8-daf40700477b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zydis\Zydis\Generated">
+      <UniqueIdentifier>{9bdbdf15-46b5-4fa7-a768-cf6b477edd80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Log\Log.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="FileWriter\FileWriter.cpp">
+      <Filter>FileWriter</Filter>
+    </ClCompile>
+    <ClCompile Include="Dumper\Dumper.cpp">
+      <Filter>Dumper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\Log.hpp">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="RobloxStuff.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileWriter\FileWriter.hpp">
+      <Filter>FileWriter</Filter>
+    </ClInclude>
+    <ClInclude Include="Dumper\Dumper.hpp">
+      <Filter>Dumper</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\ZycoreExportConfig.h">
+      <Filter>Zydis</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\ZydisExportConfig.h">
+      <Filter>Zydis</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zydis\Decoder.h">
+      <Filter>Zydis\Zydis</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zydis\DecoderTypes.h">
+      <Filter>Zydis\Zydis</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zydis\Formatter.h">
+      <Filter>Zydis\Zydis</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zydis\FormatterBuffer.h">
+      <Filter>Zydis\Zydis</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zydis\MetaInfo.h">
+      <Filter>Zydis\Zydis</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zydis\Mnemonic.h">
+      <Filter>Zydis\Zydis</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zydis\Register.h">
+      <Filter>Zydis\Zydis</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zydis\SharedTypes.h">
+      <Filter>Zydis\Zydis</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zydis\ShortString.h">
+      <Filter>Zydis\Zydis</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zydis\Status.h">
+      <Filter>Zydis\Zydis</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zydis\Utils.h">
+      <Filter>Zydis\Zydis</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zydis\Zydis.h">
+      <Filter>Zydis\Zydis</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zycore\Allocator.h">
+      <Filter>Zydis\Zycore</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zycore\ArgParse.h">
+      <Filter>Zydis\Zycore</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zycore\Bitset.h">
+      <Filter>Zydis\Zycore</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zycore\Comparison.h">
+      <Filter>Zydis\Zycore</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zycore\Defines.h">
+      <Filter>Zydis\Zycore</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zycore\Format.h">
+      <Filter>Zydis\Zycore</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zycore\LibC.h">
+      <Filter>Zydis\Zycore</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zycore\List.h">
+      <Filter>Zydis\Zycore</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zycore\Object.h">
+      <Filter>Zydis\Zycore</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zycore\Status.h">
+      <Filter>Zydis\Zycore</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zycore\String.h">
+      <Filter>Zydis\Zycore</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zycore\Types.h">
+      <Filter>Zydis\Zycore</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zycore\Vector.h">
+      <Filter>Zydis\Zycore</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zycore\Zycore.h">
+      <Filter>Zydis\Zycore</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zycore\API\Memory.h">
+      <Filter>Zydis\Zycore\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zycore\API\Synchronization.h">
+      <Filter>Zydis\Zycore\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zycore\API\Terminal.h">
+      <Filter>Zydis\Zycore\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zycore\API\Thread.h">
+      <Filter>Zydis\Zycore\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zydis\Internal\DecoderData.h">
+      <Filter>Zydis\Zydis\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zydis\Internal\FormatterATT.h">
+      <Filter>Zydis\Zydis\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zydis\Internal\FormatterBase.h">
+      <Filter>Zydis\Zydis\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zydis\Internal\FormatterIntel.h">
+      <Filter>Zydis\Zydis\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zydis\Internal\SharedData.h">
+      <Filter>Zydis\Zydis\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zydis\Internal\String.h">
+      <Filter>Zydis\Zydis\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zydis\Generated\EnumInstructionCategory.h">
+      <Filter>Zydis\Zydis\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zydis\Generated\EnumISAExt.h">
+      <Filter>Zydis\Zydis\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zydis\Generated\EnumISASet.h">
+      <Filter>Zydis\Zydis\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zydis\Generated\EnumMnemonic.h">
+      <Filter>Zydis\Zydis\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Zydis\include\Zydis\Generated\EnumRegister.h">
+      <Filter>Zydis\Zydis\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
